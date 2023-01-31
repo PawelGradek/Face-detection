@@ -20,6 +20,14 @@ Download requirement and run a project
 
 ## Run project
 
+Website: home page
+![image](https://user-images.githubusercontent.com/80818195/215850255-f1d558e7-84a6-4473-8272-847571b06d9d.png)
+
+Website: face detection
+![image](https://user-images.githubusercontent.com/80818195/215850432-0a40fa84-e650-40f7-8856-a92c22a3c375.png)
+
+Website: edge detection
+![image](https://user-images.githubusercontent.com/80818195/215850585-7f6b92da-d72b-4270-a7b6-82b7203ff8e2.png)
 
 
 ## Information about author
