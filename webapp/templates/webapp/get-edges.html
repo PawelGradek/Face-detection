@@ -1,0 +1,76 @@
+{% extends "webapp/base.html" %}
+
+{% block title %}Web app{% endblock %}
+
+{% block extrainport %}
+
+<style type="text/css">
+
+/* #image1 {
+         display: none;
+        }
+#image2 {
+         display: none;
+        }
+#image3 {
+         display: none;
+        } */
+
+</style>
+
+{% endblock extrainport%}
+
+{% block content %}
+
+<h1> <center>Edge detection in the image</center> </h1> 
+</br></br> 
+
+<!-- <center>
+<div><img id="image1" src="{% url 'video_feed2' 1 %}" alt="GFG image 1" /></div>
+</center> 
+<center>
+<div><img id="image2" src="{% url 'video_feed2' 2 %}" alt="GFG image 2" /></div>
+</center> -->
+<center>
+<div><img id="image3" src="{% url 'video_feed2' 3 %}" alt="GFG image 3" /></div>
+</center>        
+<!-- <center>
+      <button type="button" class="btn btn-primary" onclick="show1()" > Show Image 1</button>
+      <button type="button" class="btn btn-primary" onclick="show2()" > Show Image 2</button>
+      <button type="button" class="btn btn-primary" onclick="show3()" > Show Image 3</button>
+
+      <button type="button" class="btn btn-primary" onclick="show11()" > unShow Image 1</button>
+      <button type="button" class="btn btn-primary" onclick="show22()" > unShow Image 2</button>
+      <button type="button" class="btn btn-primary" onclick="show33()" > unShow Image 3</button>
+</center> -->
+ 
+
+<!-- <script>
+        function show1() {
+            document.getElementById('image1').style.display = "block";
+        }
+        function show11() {
+            document.getElementById('image1').style.display = "none";
+        }
+
+        function show2() {
+            document.getElementById('image2').style.display = "block";
+
+        }
+        function show22() {
+            document.getElementById('image2').style.display = "none";
+        }
+
+        function show3() {
+            document.getElementById('image3').style.display = "block";
+
+        }
+        function show33() {
+            document.getElementById('image3').style.display = "none";
+        }
+        
+
+</script> -->
+
+{% endblock content %}
+

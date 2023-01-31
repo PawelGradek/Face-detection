@@ -1,0 +1,26 @@
+{% extends "webapp/base.html" %}
+
+{% block title %}Web app{% endblock %}
+
+{% block extrainport %}
+
+<style type="text/css">
+
+</style>
+
+{% endblock extrainport%}
+
+{% block content %}
+
+<h1> <center>Face detection</center> </h1> 
+</br></br> 
+
+
+<div class="container">
+      <center><img src="{% url 'video_feed' %}"></center>
+      
+</div>
+
+
+{% endblock content %}
+

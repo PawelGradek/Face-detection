@@ -1,0 +1,93 @@
+/* kolor napisow w menu */
+a,
+a:hover,
+a:focus {
+    color: rgb(14, 4, 4);
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+
+/* menu po lewej rozmiar, kolory */
+#sidebar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    z-index: 999;
+
+    color: #fff;    
+    transition: all 0.3s;
+    background-color:
+    #2d66bb;
+
+}
+
+#sidebar.active {
+    margin-left: 100%;
+}
+
+/* kolr górnej czesci menu */
+#sidebar .sidebar-header {
+    padding: 0px;
+    background:
+    #2d66bb ;
+
+}
+
+/* kolor menu, solutions, visualizations */
+#sidebar ul.components {
+    padding: 20px ;
+    background-color: #2d66bb;
+     /* #20252e; */
+    
+}
+
+/* wielosc menu, visual, sol */
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+/* podswietlanie przyciskow po najechaniu na nie w menu */
+#sidebar ul li a:hover {
+    color:#2d66bb ;
+    background: #fff;
+}
+#sidebar ul {
+    list-style-type: none;
+    margin: 10;
+    /* padding: 8; */
+    overflow: hidden;
+  }
+  
+#sidebar  li {
+    float: left;
+    margin: 10;
+    /* padding: 8px; */
+  }
+  
+#sidebar  li a {
+    display: block;
+    margin: 10;
+    padding: 8px;
+    background-color: rgb(145, 180, 226);;
+  }
+
+/* glowna tres na stronie/ zawartosc strony */
+#content {
+    background-color: rgb(145, 180, 226);;
+    width: calc(100%);
+    padding: 130px;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-height: 100vh;
+}
+
+#content.active {
+    width: 100%;
+}
